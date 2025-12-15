@@ -7,7 +7,6 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "esModuleInterop": true,  
     "target": "ES2022",
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
@@ -22,7 +21,7 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-
+    "noEmit": true,
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,

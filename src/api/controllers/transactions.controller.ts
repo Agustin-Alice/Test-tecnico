@@ -2,7 +2,7 @@
 import type { Request, Response } from 'express';
 
 
-export class TransactionsController {
+ class TransactionsController {
     async deposit(req: Request, res: Response) {
     const { accountId, amount } = req.body;
     try {
@@ -29,3 +29,4 @@ export class TransactionsController {
 }
     
     
+export default TransactionsController;
