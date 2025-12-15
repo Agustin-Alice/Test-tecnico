@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "ts-node src/server.ts"
+  },
   "dependencies": {
     "express": "^5.2.1"
   },
@@ -7,5 +10,24 @@
     "@types/node": "^25.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agustin-Alice/Test-tecnico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agustin-Alice/Test-tecnico/issues"
+  },
+  "homepage": "https://github.com/Agustin-Alice/Test-tecnico#readme",
+  "name": "test-tecnico",
+  "version": "1.0.0",
+  "type": "module",
+  "ts-node": {
+    "esm": true
   }
 }
